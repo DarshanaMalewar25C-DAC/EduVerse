@@ -1,4 +1,4 @@
-# 🎓 EduVerse -Smart Classroom and Timetable Generator
+# 🎓 EduVerse - Smart Classroom and Timetable Generator
 EduVerse is a state-of-the-art, multi-tenant academic resource management and automated scheduling platform. It empowers educational institutions to manage departments, faculty, and classrooms while leveraging a sophisticated **Genetic Algorithm with Backtracking** to generate optimized, conflict-free timetables.
 
 Built with a robust **ASP.NET Core 8 / Spring Boot 3** backend architecture and a stunning **React 18** frontend, EduVerse delivers a premium user experience with modern aesthetics and high performance.
