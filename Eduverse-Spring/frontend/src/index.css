@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-50: oklch(0.97 0.01 291.07);
+    --color-primary-100: oklch(0.91 0.03 291.07);
+    --color-primary-200: oklch(0.83 0.07 291.07);
+    --color-primary-300: oklch(0.71 0.13 291.07);
+    --color-primary-400: oklch(0.58 0.19 291.07);
+    --color-primary-500: oklch(0.51 0.23 291.07);
+    --color-primary-600: oklch(0.44 0.21 291.07);
+    --color-primary-700: oklch(0.38 0.18 291.07);
+    --color-primary-800: oklch(0.32 0.15 291.07);
+    --color-primary-900: oklch(0.28 0.12 291.07);
+    --color-primary-950: oklch(0.18 0.08 291.07);
+
+    --animate-fade-in: fade-in 0.5s ease-out;
+    --animate-float: float 3s ease-in-out infinite;
+
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes float {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: oklch(0.98 0.01 20);
+    color: oklch(0.15 0.02 20);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer components {
+    .input-field {
+        @apply w-full px-5 py-4 bg-gray-50 border-2 border-transparent focus:border-purple-500 rounded-2xl outline-none text-gray-900 transition-all font-medium;
+    }
+
+    .label {
+        @apply block text-xs font-black text-gray-500 uppercase tracking-widest mb-2 ml-1;
+    }
+
+    .glass-card {
+        @apply bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl shadow-xl;
+    }
+}
