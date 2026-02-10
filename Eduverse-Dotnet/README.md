@@ -1,4 +1,4 @@
-# 🎓 EduVerse - Advanced Multi-Tenant Class Scheduling System
+# 🎓 EduVerse - Smart Classroom and Timetable Generator
 
 EduVerse is a state-of-the-art, multi-tenant academic resource management and automated scheduling platform. It empowers educational institutions to manage departments, faculty, and classrooms while leveraging a sophisticated **Genetic Algorithm with Backtracking** to generate optimized, conflict-free timetables.
 
